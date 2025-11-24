@@ -131,7 +131,7 @@ function findPlayer(map) {
         for (j = 0; j < map[i].length; j++) {
             if (map[i][j] === 15) {
                 // found the player, break out of both loops
-                return { row: i, col: j };
+                return { row, col };
             }
         }
     }
